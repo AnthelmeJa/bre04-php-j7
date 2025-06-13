@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Layout Mini-projet phpj7</title>
+	</head>
+	<body>
+	    <?php 
+	        if($route=== null || $route=== "home"){
+	            require "phtml/home.phtml";
+	        }else if($route=== "inscription"){
+	            require "phtml/register.phtml";
+	        }else if($route=== "connexion"){
+	            require "phtml/login.phtml";
+	        }
+	    ?>
+	</body>
+</html>
